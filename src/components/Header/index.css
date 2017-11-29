@@ -1,0 +1,81 @@
+.header {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 30px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+  z-index: 2;
+  position: relative;
+}
+.header__nav {
+  font-size: 14px;
+	color: #198be5;
+  cursor: pointer;
+}
+.header__navicon {
+  background-image: url(./images/icon_back.png);
+  background-repeat: no-repeat;
+  text-indent: -9999rem;
+  background-position: center;
+  width: 10px;
+  height: 100%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.header__title {
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.header__sides {
+  display: flex;
+  flex: 0 0 160px;
+}
+
+.header__right {
+  flex-direction: row-reverse;
+}
+
+.header__close {
+  display: none;
+  background-image: url(./images/icon_close.png);
+  background-repeat: no-repeat;
+  text-indent: -9999rem;
+  background-position: right center;
+  width: 1.8rem;
+  height: 6rem;
+  cursor: pointer;
+}
+.header__close_show{
+  display: block;
+}
+.hidden {
+  visibility: hidden;
+}
+.Grid {
+  display: flex;
+}
+
+.Grid-cell {
+  flex: 1;
+}
+
+.Grid-cell.u-full {
+  flex: 0 0 100%;
+}
+
+.Grid-cell.u-1of2 {
+  flex: 0 0 50%;
+}
+
+.Grid-cell.u-1of3 {
+  flex: 0 0 33.3333%;
+}
+
+.Grid-cell.u-1of4 {
+  flex: 0 0 25%;
+}

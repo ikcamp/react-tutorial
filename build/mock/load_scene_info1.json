@@ -1,0 +1,104 @@
+{
+  "data": {
+    "sceneId": 1,
+    "sceneDescription": "现在是晚上6点半，一个人声嘈杂的餐馆…",
+    "sceneName": "西餐厅对话",
+    "scenePicUrl": null,
+    "sceneRoles": [
+      {
+        "roleId": 1,
+        "roleDescription": "我是服务员，小A。竭诚为您服务",
+        "roleHeadPicUrl": "/static/images/1-1.png",
+        "roleName": "服务员A",
+        "rolePicUrl": "/static/images/1-1.png"
+      },
+      {
+        "roleId": 2,
+        "roleDescription": "我是服务员，小B。很高兴为您服务，想点些啥呢？",
+        "roleHeadPicUrl": "/static/images/1-2.png",
+        "roleName": "服务员B",
+        "rolePicUrl": "/static/images/1-2.png"
+      },
+      {
+        "roleId": 3,
+        "roleDescription": "我是金牌会员，小C，来瓶拉菲",
+        "roleHeadPicUrl": "/static/images/1-3.png",
+        "roleName": "顾客C",
+        "rolePicUrl": "/static/images/1-3.png"
+      }
+    ],
+    "tips": [
+      {
+        "actPoint": "Welcome …",
+        "tipId": 1,
+        "knowledgePointList": [
+          "Hi, gays!",
+          "nice to meet you",
+          "have a good day"
+        ],
+        "roleId": 1
+      },
+      {
+        "actPoint": "fold …",
+        "tipId": 2,
+        "knowledgePointList": [
+          "Today’s special :",
+          "Pan roasred sable fish",
+          "Seafood salad",
+          "Vanilla ice cream"
+        ],
+        "roleId": 2
+      },
+      {
+        "actPoint": "en …",
+        "tipId": 3,
+        "knowledgePointList": ["order food", "I’d like…", "I’ll have…"],
+        "roleId": 3
+      },
+      {
+        "actPoint": "Sold out",
+        "tipId": 4,
+        "knowledgePointList": ["Sold out", "… is/are sold out."],
+        "roleId": 1
+      },
+      {
+        "actPoint": "talking …",
+        "tipId": 5,
+        "knowledgePointList": [
+          "talk about the tenderness of steak",
+          "Rare/medium-rare",
+          "medium/medium-well",
+          "well-done"
+        ],
+        "roleId": 2
+      },
+      {
+        "actPoint": "asking for …",
+        "tipId": 6,
+        "knowledgePointList": [
+          "ask for recommendation",
+          "…recommend?",
+          "…specialty?"
+        ],
+        "roleId": 3
+      }
+    ],
+    "players": [
+      {
+        "playerId": 0,
+        "userName": "羞羞的铁拳",
+        "avatar": "/static/images/uu-1.png",
+        "selected": false
+      },
+      {
+        "playerId": 1,
+        "userName": "小僵尸",
+        "avatar": "/static/images/uu-2.png",
+        "selected": false
+      }
+    ]
+  },
+  "message": null,
+  "status": 0,
+  "time": null
+}

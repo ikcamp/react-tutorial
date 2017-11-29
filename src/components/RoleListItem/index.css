@@ -1,0 +1,86 @@
+:root {
+  --roleSelectedBg: #f6f9fc;
+  --roleLeftSelectedBg: #198be5;
+}
+
+.role {
+  height: 60px;
+  overflow: hidden;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-right: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.role:hover {
+  background-color: #f6f9fc;
+}
+
+.role:hover .role__left {
+  background-color: #198be5;
+}
+
+.role__left_block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.role__left {
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  text-indent: -999rem;
+  margin-right: 16px;
+}
+
+.role--selected {
+  background-color: #f6f9fc;
+}
+
+.role__left--selected {
+  background-color: #198be5;
+}
+
+.role__avatar-wrap {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.role__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.role__loading-wrap {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.role__right {
+  color: #666666;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.roleName {
+  font-size: 14px;
+}
+
+.roleName, .roleUser{
+   width: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.roleUser {
+  font-size: 12px;
+}

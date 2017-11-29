@@ -1,0 +1,21 @@
+.scene_list_container{
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+.scene_list__icon{
+  width: 101px;
+  height: 68px;
+  margin: 0 auto 30px;
+  background: url(../../assets/images/costalk-illustration.png);
+}
+.scene_list_h3{
+line-height: 25px;
+font-size: 18px;
+color: #666666;
+}
+.scene_list_h4{
+  line-height: 20px;
+font-size: 14px;
+color: #999999;
+}

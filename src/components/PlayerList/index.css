@@ -1,0 +1,42 @@
+.player-list-wrap {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+  z-index: 1;
+}
+
+.player-list-wrap--show {
+  display: block;
+}
+
+.player-list-wrap--hide {
+  display: none;
+}
+
+.player-list-wrap__player-list {
+  width: 180px;
+  max-height: 230px;
+  opacity: 0.99;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  overflow-y: scroll;
+  border-radius: 2px;
+}
+
+.player-list-wrap__player-list li:last-child b {
+  border-bottom: none;
+}
+
+.player-list-wrap__up-triangle {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 27px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #fff;
+}

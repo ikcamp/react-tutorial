@@ -1,0 +1,29 @@
+.dialogue-wrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
+.dialogue-wrap__header{
+  font-size: 14px;
+	color: #333333;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding-left: 20px;
+  margin-bottom: 1px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+}
+
+.dialogue-wrap__list {
+  width: 270px;
+  padding-top: 40px;
+  height: 100%;
+  overflow-y: scroll;
+}

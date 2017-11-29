@@ -1,0 +1,46 @@
+.hidden{
+  display: none;
+}
+.role-intro {
+  width: 310px;
+  padding: 14px 0px 20px;
+  word-break: break-word;
+  box-sizing: border-box;
+  background-position: 50%; 
+  background-repeat: no-repeat;
+  position: relative;
+}
+.role-layout{
+  position: fixed;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999rem;
+  z-index: 99999;
+}
+.role-intro__descs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 20px;
+  max-height: 280px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+.role-intro__desc {
+  font-size: 14px;
+  color: #ffffff;
+  white-space: pre-wrap;
+}
+.role-intro__btn{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

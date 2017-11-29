@@ -1,0 +1,40 @@
+.teacher-perate {
+  padding: 10px 20px 0 20px;
+  height: 500px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.teacher-perate__content {
+  height: 420px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.teacher-perate__desc {
+  font-size: 14px;
+  color: #999999;
+  padding: 15px 46px 0 46px;
+}
+
+.teacher-perate__left {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.teacher-perate__lists {
+  max-height: 420px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+.teacher-perate__right {
+  height: 100%;
+  width: 270px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

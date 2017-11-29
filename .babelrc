@@ -1,0 +1,45 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7"]
+      }
+    }],
+    // Transpile React components to JavaScript
+    "react"
+  ],
+  "plugins": [
+    "transform-runtime",
+    // es7 装饰器
+    "transform-decorators-legacy",
+    // Enables React code to work with HMR.
+    "react-hot-loader/babel",
+    // 增加提案中的 对象展开运算符
+    ["transform-object-rest-spread", { "useBuiltIns": true }],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        // antd组件的样式文件最好单独引入，不要打包到js中
+        "style": false
+      }
+    ]
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": [
+        "env"
+      ],
+      "plugins": [
+        "istanbul"
+      ]
+    },
+    "production": {
+      "presets": [
+        "react-optimize"
+      ]
+    }
+  }
+}

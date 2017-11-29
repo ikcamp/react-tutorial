@@ -1,0 +1,102 @@
+{
+  "data": {
+    "sceneId": 2,
+    "sceneDescription": "晚饭后，发觉身体不适，决定向主管请病假…",
+    "sceneName": "请假",
+    "scenePicUrl": null,
+    "sceneRoles": [
+      {
+        "roleId": 1,
+        "roleDescription": "I'm a teacher，为人师表！",
+        "roleHeadPicUrl": "/static/images/2-1.png",
+        "roleName": "班主任",
+        "rolePicUrl": "/static/images/2-1.png"
+      },
+      {
+        "roleId": 2,
+        "roleDescription":
+          "老师，老师，我是淘气包，来给您请安…哦，不，请假嘞！",
+        "roleHeadPicUrl": "/static/images/2-2.png",
+        "roleName": "淘气包",
+        "rolePicUrl": "/static/images/2-2.png"
+      },
+      {
+        "roleId": 3,
+        "roleDescription":
+          "老师好，我是学生委员，三好学生，三八红旗手，三好市民，三个代表，未来的社会主义接班人。今身体欠安…",
+        "roleHeadPicUrl": "/static/images/2-3.png",
+        "roleName": "英语课代表",
+        "rolePicUrl": "/static/images/2-3.png"
+      }
+    ],
+    "tips": [
+      {
+        "actPoint": "What's wroung",
+        "tipId": 1,
+        "knowledgePointList": [
+          "U has do it!!!",
+          "think so",
+          "let me think think"
+        ],
+        "roleId": 1
+      },
+      {
+        "actPoint": "duzi broken",
+        "tipId": 2,
+        "knowledgePointList": [
+          "noodles bad",
+          "water cold",
+          "chicken cold",
+          "ice cream"
+        ],
+        "roleId": 2
+      },
+      {
+        "actPoint": "go old home",
+        "tipId": 3,
+        "knowledgePointList": ["see old boys…", "meetings…", "chinese…"],
+        "roleId": 3
+      },
+      {
+        "actPoint": "tips",
+        "tipId": 4,
+        "knowledgePointList": ["safe…", "back time"],
+        "roleId": 1
+      },
+      {
+        "actPoint": "to doctor …",
+        "tipId": 5,
+        "knowledgePointList": [
+          "for mochine",
+          "have a rest",
+          "enjoy self",
+          "well-done"
+        ],
+        "roleId": 2
+      },
+      {
+        "actPoint": "three days later",
+        "tipId": 6,
+        "knowledgePointList": ["done all tasks", "safey", "see u later"],
+        "roleId": 3
+      }
+    ],
+    "players": [
+      {
+        "playerId": 0,
+        "userName": "羞羞的铁拳",
+        "avatar": "/static/images/uu-1.png",
+        "selected": false
+      },
+      {
+        "playerId": 1,
+        "userName": "小僵尸",
+        "avatar": "/static/images/uu-2.png",
+        "selected": false
+      }
+    ]
+  },
+  "message": null,
+  "status": 0,
+  "time": null
+}

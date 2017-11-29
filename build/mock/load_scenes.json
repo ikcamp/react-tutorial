@@ -1,0 +1,34 @@
+{
+  "data": {
+    "scenes": [
+      {
+        "sceneId": 1,
+        "title": "西餐厅点餐",
+        "desc": "现在是晚上6点半，一个人声嘈杂的餐馆…",
+        "numRange": "2~4人",
+        "imgUrl": "/static/images/photo_01.png",
+        "level": 0
+      },
+      {
+        "sceneId": 2,
+        "title": "请假",
+        "desc": "晚饭后，发觉身体不适，决定向主管请病假…",
+        "numRange": "2人",
+        "imgUrl": "/static/images/photo_02.png",
+        "level": 1
+      },
+      {
+        "sceneId": 3,
+        "title": "投诉抱怨",
+        "desc": "新买的吸尘器寄到家里了，可是却发现问题很多…",
+        "numRange": "2~4人",
+        "imgUrl": "/static/images/photo_03.png",
+        "level": 0
+      }
+    ],
+    "scheduleId": 476750
+  },
+  "message": null,
+  "status": 0,
+  "time": null
+}

@@ -1,10 +1,12 @@
 import React from 'react'
 import classNames from 'classnames/bind'
+import pureRender from 'pure-render-decorator'
+
 import RoleListItem from '@/components/RoleListItem'
 import styles from './index.css'
-
 let cx = classNames.bind(styles)
 
+@pureRender
 class RoleList extends React.Component {
   render () {
     let {roleList, sceneInfo, clickRole, clickRoleHeadPic} = this.props

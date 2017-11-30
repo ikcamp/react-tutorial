@@ -1,10 +1,12 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
+import pureRender from 'pure-render-decorator'
 import classNames from 'classnames/bind'
 import styles from './index.css'
 
 let cx = classNames.bind(styles)
 
+@pureRender
 @withRouter
 class Header extends React.Component {
   constructor (props) {

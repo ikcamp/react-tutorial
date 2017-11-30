@@ -1,11 +1,11 @@
 import React from 'react'
 import classNames from 'classnames/bind'
-
+import pureRender from 'pure-render-decorator'
 import PlayerListItem from '@/components/PlayerListItem'
 import styles from './index.css'
 
 let cx = classNames.bind(styles)
-
+@pureRender
 class PlayerList extends React.Component {
   constructor (props) {
     super(props)

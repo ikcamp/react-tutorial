@@ -1,10 +1,12 @@
 import React from 'react'
-import TipsItem from '@/components/TipsItem'
+import pureRender from 'pure-render-decorator'
 import classNames from 'classnames/bind'
-import styles from './index.css'
 
+import TipsItem from '@/components/TipsItem'
+import styles from './index.css'
 let cx = classNames.bind(styles)
 
+@pureRender
 class TipsList extends React.Component {
   render () {
     let { tipsList, sceneInfo } = this.props

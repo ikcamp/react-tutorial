@@ -6,21 +6,21 @@
     "scenePicUrl": null,
     "sceneRoles": [
       {
-        "roleId": 1,
+        "roleId": 10001,
         "roleDescription": "我是售后服务员，Lily。竭诚为您服务",
         "roleHeadPicUrl": "/static/images/3-1.png",
         "roleName": "Lily",
         "rolePicUrl": "/static/images/3-1.png"
       },
       {
-        "roleId": 2,
+        "roleId": 10002,
         "roleDescription": "刚买的电器，还没使就挂了，这可咋整",
         "roleHeadPicUrl": "/static/images/3-2.png",
         "roleName": "豆夫人",
         "rolePicUrl": "/static/images/3-2.png"
       },
       {
-        "roleId": 3,
+        "roleId": 10003,
         "roleDescription": "哟哟哟、我的电器不得了、哟哟",
         "roleHeadPicUrl": "/static/images/3-3.png",
         "roleName": "朋克",
@@ -30,67 +30,67 @@
     "tips": [
       {
         "actPoint": "Welcome …",
-        "tipId": 1,
+        "tipId": 10001,
         "knowledgePointList": [
           "can I help u…",
           "what problem?",
           "We can made it.Promise"
         ],
-        "roleId": 1
+        "roleId": 10001
       },
       {
         "actPoint": "broken …",
-        "tipId": 2,
+        "tipId": 10002,
         "knowledgePointList": ["three weeks ago", "can't work", "tel…"],
-        "roleId": 2
+        "roleId": 10002
       },
       {
         "actPoint": " …",
-        "tipId": 3,
+        "tipId": 10003,
         "knowledgePointList": [
           "keep in (good) repair",
           "upkeep of equipment",
           "quoted a price for the repai"
         ],
-        "roleId": 3
+        "roleId": 10003
       },
       {
         "actPoint": "Sold out",
-        "tipId": 4,
+        "tipId": 10004,
         "knowledgePointList": ["Sold out", "… is/are sold out."],
-        "roleId": 1
+        "roleId": 10001
       },
       {
         "actPoint": "talking …",
-        "tipId": 5,
+        "tipId": 10005,
         "knowledgePointList": [
           "talk about the tenderness of steak",
           "Rare/medium-rare",
           "medium/medium-well",
           "well-done"
         ],
-        "roleId": 2
+        "roleId": 10002
       },
       {
         "actPoint": "asking for …",
-        "tipId": 6,
+        "tipId": 10006,
         "knowledgePointList": [
           "ask for recommendation",
           "…recommend?",
           "…specialty?"
         ],
-        "roleId": 3
+        "roleId": 10003
       }
     ],
     "players": [
       {
-        "playerId": 0,
+        "playerId": 10000,
         "userName": "羞羞的铁拳",
         "avatar": "/static/images/uu-1.png",
         "selected": false
       },
       {
-        "playerId": 1,
+        "playerId": 10001,
         "userName": "小僵尸",
         "avatar": "/static/images/uu-2.png",
         "selected": false

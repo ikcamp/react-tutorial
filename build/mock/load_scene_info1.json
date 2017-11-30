@@ -6,21 +6,21 @@
     "scenePicUrl": null,
     "sceneRoles": [
       {
-        "roleId": 1,
+        "roleId": 10001,
         "roleDescription": "我是服务员，小A。竭诚为您服务",
         "roleHeadPicUrl": "/static/images/1-1.png",
         "roleName": "服务员A",
         "rolePicUrl": "/static/images/1-1.png"
       },
       {
-        "roleId": 2,
+        "roleId": 10002,
         "roleDescription": "我是服务员，小B。很高兴为您服务，想点些啥呢？",
         "roleHeadPicUrl": "/static/images/1-2.png",
         "roleName": "服务员B",
         "rolePicUrl": "/static/images/1-2.png"
       },
       {
-        "roleId": 3,
+        "roleId": 10003,
         "roleDescription": "我是金牌会员，小C，来瓶拉菲",
         "roleHeadPicUrl": "/static/images/1-3.png",
         "roleName": "顾客C",
@@ -30,68 +30,68 @@
     "tips": [
       {
         "actPoint": "Welcome …",
-        "tipId": 1,
+        "tipId": 10001,
         "knowledgePointList": [
           "Hi, gays!",
           "nice to meet you",
           "have a good day"
         ],
-        "roleId": 1
+        "roleId": 10001
       },
       {
         "actPoint": "fold …",
-        "tipId": 2,
+        "tipId": 10002,
         "knowledgePointList": [
           "Today’s special :",
           "Pan roasred sable fish",
           "Seafood salad",
           "Vanilla ice cream"
         ],
-        "roleId": 2
+        "roleId": 10002
       },
       {
         "actPoint": "en …",
-        "tipId": 3,
+        "tipId": 10003,
         "knowledgePointList": ["order food", "I’d like…", "I’ll have…"],
-        "roleId": 3
+        "roleId": 10003
       },
       {
         "actPoint": "Sold out",
-        "tipId": 4,
+        "tipId": 10004,
         "knowledgePointList": ["Sold out", "… is/are sold out."],
-        "roleId": 1
+        "roleId": 10001
       },
       {
         "actPoint": "talking …",
-        "tipId": 5,
+        "tipId": 10005,
         "knowledgePointList": [
           "talk about the tenderness of steak",
           "Rare/medium-rare",
           "medium/medium-well",
           "well-done"
         ],
-        "roleId": 2
+        "roleId": 10002
       },
       {
         "actPoint": "asking for …",
-        "tipId": 6,
+        "tipId": 10006,
         "knowledgePointList": [
           "ask for recommendation",
           "…recommend?",
           "…specialty?"
         ],
-        "roleId": 3
+        "roleId": 10003
       }
     ],
     "players": [
       {
-        "playerId": 0,
+        "playerId": 10000,
         "userName": "羞羞的铁拳",
         "avatar": "/static/images/uu-1.png",
         "selected": false
       },
       {
-        "playerId": 1,
+        "playerId": 10001,
         "userName": "小僵尸",
         "avatar": "/static/images/uu-2.png",
         "selected": false

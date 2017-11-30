@@ -1,9 +1,8 @@
 import React from 'react'
 import classNames from 'classnames/bind'
-import styles from './index.css'
 
+import styles from './index.css'
 let cx = classNames.bind(styles)
-// let defaultAvatar = require('../../assets/images/head_sculpture_normal.png')
 
 class RoleListItem extends React.Component {
   constructor (props) {

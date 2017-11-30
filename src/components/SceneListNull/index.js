@@ -1,8 +1,11 @@
 import React from 'react'
 import classNames from 'classnames/bind'
+import pureRender from 'pure-render-decorator'
+
 import styles from './index.css'
 let cx = classNames.bind(styles)
 
+@pureRender
 class SceneListNull extends React.Component {
   render () {
     return (

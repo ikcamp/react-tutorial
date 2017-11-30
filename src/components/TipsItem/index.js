@@ -1,11 +1,12 @@
 import React from 'react'
 import classNames from 'classnames/bind'
+import pureRender from 'pure-render-decorator'
 
 import styles from './index.css'
-
 let cx = classNames.bind(styles)
 
-class DialogueItem extends React.Component {
+@pureRender
+class TipsItem extends React.Component {
   render () {
     let {info, selectRoleId} = this.props
     const roleSelected = selectRoleId === info.roleId
@@ -32,4 +33,4 @@ class DialogueItem extends React.Component {
   }
 }
 
-export default DialogueItem
+export default TipsItem

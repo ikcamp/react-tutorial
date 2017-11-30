@@ -12,12 +12,12 @@ class TeacherFooter extends React.Component {
     let {clickStart} = this.props
     return (
       <footer className={cx('footer')}>
-        <div className={cx('footer__layout')}>
-          <div className={cx('footer__send-card')}>
-            <span className={cx('footer__empty', 'footer__empty--send-card')}>empty</span>
-            <button className={cx('btn', 'btn--send-card')} onClick={clickStart}>开始上课</button>
-            <div className={cx('footer__tips')}>
-              <i className={cx('footer__icon-tip')}>icon</i>
+        <div className={cx('footer_layout')}>
+          <div className={cx('footer_send-card')}>
+            <span className={cx('footer_empty', 'footer_empty-send-card')}>empty</span>
+            <button className={cx('btn', 'btn-send-card')} onClick={clickStart}>开始上课</button>
+            <div className={cx('footer_tips')}>
+              <i className={cx('footer_icon-tip')}>icon</i>
               <div>未指定的角色将由剩余学生自己选择</div>
             </div>
           </div>

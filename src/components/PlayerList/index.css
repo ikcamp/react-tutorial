@@ -1,19 +1,16 @@
-.player-list-wrap {
+.player-list {
   position: absolute;
   top: 60px;
   left: 5px;
   z-index: 1;
-}
-
-.player-list-wrap--show {
-  display: block;
-}
-
-.player-list-wrap--hide {
   display: none;
 }
 
-.player-list-wrap__player-list {
+.show {
+  display: block;
+}
+
+.player-list_wrap {
   width: 180px;
   max-height: 230px;
   opacity: 0.99;
@@ -25,11 +22,11 @@
   border-radius: 2px;
 }
 
-.player-list-wrap__player-list li:last-child b {
+.player-list_wrap li:last-child b {
   border-bottom: none;
 }
 
-.player-list-wrap__up-triangle {
+.player-list_up {
   position: absolute;
   z-index: 1;
   top: -10px;

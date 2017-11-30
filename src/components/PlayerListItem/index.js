@@ -17,16 +17,16 @@ class PlayerListItem extends React.Component {
   }
   render () {
     let { playerInfo, hasBottom } = this.props
-    let addOrCancel = `player__icon--s${playerInfo.selected ? 1 : 0}`
-    let hasNoBottomStyle = hasBottom ? '' : 'player__content__nobottom'
+    let addOrCancel = `player-icon_s${playerInfo.selected ? 1 : 0}`
+    let hasNoBottomStyle = hasBottom ? '' : 'player-content_nobottom'
     return (
       <li className={cx('player')}>
-        <div className={cx('player__content', hasNoBottomStyle)} onClick={this.clickPlayer}>
-          <div className={cx('player__user')}>
-            <img src={playerInfo.avatar} alt='' className={cx('player__avatar')} />
-            <span className={cx('player__username')}>{playerInfo.userName}</span>
+        <div className={cx('player-content', hasNoBottomStyle)} onClick={this.clickPlayer}>
+          <div className={cx('player-user')}>
+            <img src={playerInfo.avatar} alt='' className={cx('player-avatar')} />
+            <span className={cx('player-username')}>{playerInfo.userName}</span>
           </div>
-          <i className={cx('player__icon', addOrCancel)}>addOrCancel</i>
+          <i className={cx('player-icon', addOrCancel)}>addOrCancel</i>
         </div>
       </li>
     )

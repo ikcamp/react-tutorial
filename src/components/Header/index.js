@@ -24,26 +24,26 @@ class Header extends React.Component {
       <header className={cx('header', 'Grid')}>
         {sceneId !== -1 ? (
           <span
-            className={cx('header__sides', 'Grid-cell', 'u-1of4')}
+            className={cx('header_sides', 'Grid-cell', 'u-1of4')}
             onClick={this.goBack}
           >
-            <i className={cx('header__navicon')}>back</i>
-            <a className={cx('header__nav')}>返回</a>
+            <i className={cx('header_navicon')}>back</i>
+            <a className={cx('header_nav')}>返回</a>
           </span>
         ) : (
           ''
         )}
-        <span className={cx('header__title', 'Grid-cell')}>{sceneName}</span>
+        <span className={cx('header_title', 'Grid-cell')}>{sceneName}</span>
         {sceneId !== -1 ? (
           <span
             className={cx(
-              'header__sides',
-              'header__right',
+              'header_sides',
+              'header_right',
               'Grid-cell',
               'u-1of4'
             )}
           >
-            <i className={cx('header__close', 'header__close_show')}>X</i>
+            <i className={cx('header_close', 'header_close_show')}>X</i>
           </span>
         ) : (
           ''

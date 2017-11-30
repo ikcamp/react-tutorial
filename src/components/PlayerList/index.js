@@ -23,9 +23,9 @@ class PlayerList extends React.Component {
     let { show, top } = playerList
     let players = playerList.data
     return (
-      <div style={{'top': `${top + 60}px`}} className={cx('player-list-wrap', show ? 'player-list-wrap--show' : 'player-list-wrap--hide')}>
-        <div className={cx('player-list-wrap__up-triangle')} />
-        <ul className={cx('player-list-wrap__player-list')}>
+      <div style={{'top': `${top + 60}px`}} className={cx('player-list', show ? 'show' : '')}>
+        <div className={cx('player-list_up')} />
+        <ul className={cx('player-list_wrap')}>
           {
             players.map((v, i) => {
               return (

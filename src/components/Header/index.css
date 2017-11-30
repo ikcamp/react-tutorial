@@ -7,12 +7,12 @@
   z-index: 2;
   position: relative;
 }
-.header__nav {
+.header_nav {
   font-size: 14px;
 	color: #198be5;
   cursor: pointer;
 }
-.header__navicon {
+.header_navicon {
   background-image: url(./images/icon_back.png);
   background-repeat: no-repeat;
   text-indent: -9999rem;
@@ -22,7 +22,7 @@
   margin-right: 10px;
   cursor: pointer;
 }
-.header__title {
+.header_title {
   font-size: 18px;
   color: #333333;
   text-align: center;
@@ -31,16 +31,16 @@
   white-space: nowrap;
   word-break: break-all;
 }
-.header__sides {
+.header_sides {
   display: flex;
   flex: 0 0 160px;
 }
 
-.header__right {
+.header_right {
   flex-direction: row-reverse;
 }
 
-.header__close {
+.header_close {
   display: none;
   background-image: url(./images/icon_close.png);
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@
   height: 6rem;
   cursor: pointer;
 }
-.header__close_show{
+.header_close_show{
   display: block;
 }
 .hidden {

@@ -18,11 +18,11 @@ class RoleIntro extends React.Component {
     }
     return (
       <div className={cx('role-intro')} style={stylesObj}>
-        <div className={cx('role-intro__descs')}>
+        <div className={cx('role-intro_descs')}>
           {
             currentRoleIntro.descs.map((v, i) => {
               return (
-                <p className={cx('role-intro__desc')} key={i}>{v}</p>
+                <p className={cx('role-intro_desc')} key={i}>{v}</p>
               )
             })
           }

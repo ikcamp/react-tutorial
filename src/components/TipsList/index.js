@@ -12,9 +12,9 @@ class TipsList extends React.Component {
     let { tipsList, sceneInfo } = this.props
     let { selectRoleId } = sceneInfo
     return (
-      <div className={cx('dialogue-wrap')}>
-        <div className={cx('dialogue-wrap__header')}>{tipsList.title}</div>
-        <ul className={cx('dialogue-wrap__list')}>
+      <div className={cx('tips-wrap')}>
+        <div className={cx('tips-wrap_header')}>{tipsList.title}</div>
+        <ul className={cx('tips-wrap_list')}>
           {tipsList.data.map((v, i) => {
             return <TipsItem key={i} info={v} selectRoleId={selectRoleId} />
           })}

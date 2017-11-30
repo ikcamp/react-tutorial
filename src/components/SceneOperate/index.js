@@ -16,16 +16,16 @@ class SceneOperate extends React.Component {
     let {playerList, roleIntro, roleList, sceneInfo, tipsList} = this.props
     const {clickRole, clickRoleHeadPic, clickStopEvent, clickPlayer, clickStart} = this.props
     return (
-      <div className={cx('teacher-perate')} onClick={clickStopEvent}>
-        <div className={cx('teacher-perate__content')}>
-          <div className={cx('teacher-perate__left')}>
-            <div className={cx('teacher-perate__lists')}>
+      <div className={cx('scene-perate')} onClick={clickStopEvent}>
+        <div className={cx('scene-perate_content')}>
+          <div className={cx('scene-perate_left')}>
+            <div className={cx('scene-perate_lists')}>
               <RoleList roleList={roleList} sceneInfo={sceneInfo} clickRole={clickRole} clickRoleHeadPic={clickRoleHeadPic}/>
             </div>
             <PlayerList playerList={playerList} roleList={roleList} sceneInfo={sceneInfo} clickPlayer={clickPlayer}/>
             <RoleIntro roleIntro={roleIntro} sceneInfo={sceneInfo}/>
           </div>
-          <div className={cx('teacher-perate__right')}>
+          <div className={cx('scene-perate_right')}>
             <TipsList tipsList={tipsList} sceneInfo={sceneInfo}/>
           </div>
         </div>

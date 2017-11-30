@@ -6,14 +6,11 @@
   padding: 0 20px;
 }
 
-.footer__hide {
-  display: none;
-}
-.footer__layout{
+.footer_layout{
   height: 100%;
 }
 
-.footer__send-card {
+.footer_send-card {
   height: 100%;
   box-sizing: border-box;
   
@@ -22,7 +19,7 @@
   justify-content: space-between;
 }
 
-.footer__tips {
+.footer_tips {
   font-size: 12px;
   color: #999999;
   width: 240px;
@@ -32,7 +29,7 @@
   align-items: center;
 }
 
-.footer__icon-tip {
+.footer_icon-tip {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -43,34 +40,18 @@
   margin-right: 6px;
 }
 
-.footer__practise{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-}
-
-.footer__end-costalk{
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer__empty{
+.footer_empty{
   display: inline-block;
   width: 140px;
   text-indent: -999rem;
   vertical-align: middle;
 }
 
-.footer__empty--send-card{
+.footer_empty-send-card{
   width: 240px;
 }
 
-.footer__timer{
-  margin-right: 190px;
-}
+
 .btn {
   background-color: transparent;
   border: none;
@@ -82,7 +63,7 @@
   color: #ffffff;
 }
 
-.btn--send-card {
+.btn-send-card {
   width: 140px;
   height: 35px;
   background-color: #198be5;

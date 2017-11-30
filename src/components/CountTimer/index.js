@@ -59,9 +59,9 @@ class CountTimer extends React.Component {
   }
   render () {
     return (
-      <div onClick={this.preveentHandle.bind(this)} className={cx('counttimer', this.state.show ? 'counttimer__show' : '')}>
-        <div className={cx('counttimer__mask')} />
-        <div className={cx('counttimer__main')}>{this.state.time}</div>
+      <div onClick={this.preveentHandle.bind(this)} className={cx('counttimer', this.state.show ? 'counttimer_show' : '')}>
+        <div className={cx('counttimer_mask')} />
+        <div className={cx('counttimer_main')}>{this.state.time}</div>
       </div>
     )
   }

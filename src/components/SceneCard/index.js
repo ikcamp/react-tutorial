@@ -20,11 +20,11 @@ class SceneCard extends React.Component {
     let { info } = this.props
     return (
       <li className={cx('scene-card')} onClick={this.toSceneInfo}>
-        <div className={cx('scene-card__content')}>
-          <span className={cx('scene-card__title')}>{info.title}</span>
-          <p className={cx('scene-card__desc')}>{info.desc}</p>
+        <div className={cx('scene-card_content')}>
+          <span className={cx('scene-card_title')}>{info.title}</span>
+          <p className={cx('scene-card_desc')}>{info.desc}</p>
         </div>
-        <img src={info.imgUrl} className={cx('scene-card__img')} />
+        <img src={info.imgUrl} className={cx('scene-card_img')} />
       </li>
     )
   }

@@ -24,19 +24,19 @@ class RoleListItem extends React.Component {
   render () {
     let {roleInfo, selectRoleId} = this.props
     const selected = selectRoleId === roleInfo.roleId
-    let roleSelected = selected ? 'role--selected' : ''
-    let roleLeftSelected = selected ? 'role__left--selected' : ''
+    let roleSelected = selected ? 'role-selected' : ''
+    let roleLeftSelected = selected ? 'role-left-selected' : ''
     return (
-      <li className={cx('role', roleSelected) + ' role-list-item'} onClick={this.clickRole}>
-        <div className={cx('role__left_block')}>
-          <span className={cx('role__left', roleLeftSelected)}>role__left</span>
-          <div className={cx('role__avatar-wrap')} onClick={this.clickRoleHeadPic}>
-            <img src={roleInfo.avatar ? roleInfo.avatar : roleInfo.headPicUrl} className={cx('role__avatar')} alt='' />
+      <li className={cx('role', roleSelected)} onClick={this.clickRole}>
+        <div className={cx('role-left-block')}>
+          <span className={cx('role-left', roleLeftSelected)}>role__left</span>
+          <div className={cx('role-avatar-wrap')} onClick={this.clickRoleHeadPic}>
+            <img src={roleInfo.avatar ? roleInfo.avatar : roleInfo.headPicUrl} className={cx('role-avatar')} alt='' />
           </div>
         </div>
-        <div className={cx('role__right')}>
-          <span className={cx('roleName')}>{roleInfo.roleName}</span>
-          <span className={cx('roleUser')}>{roleInfo.userName}</span>
+        <div className={cx('role-right')}>
+          <span className={cx('role-name')}>{roleInfo.roleName}</span>
+          <span className={cx('role-user')}>{roleInfo.userName}</span>
         </div>
       </li>
     )

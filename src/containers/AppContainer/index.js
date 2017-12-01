@@ -16,7 +16,7 @@ class AppContainer extends Component {
     const { sceneInfo, goBack, countTimer } = this.props
     return (
       <div className={cx('app-p-box')}>
-        <CountTimer show={countTimer.show} time={10}/>
+        <CountTimer show={countTimer.show} time={5}/>
         <Header goBack={goBack} sceneInfo={sceneInfo}/>
         {this.props.children}
       </div>

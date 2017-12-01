@@ -107,9 +107,12 @@ function* ClickStart () {
   yield put({
     type: 'CT_SHOW'
   })
-  yield delay(10000)
+  yield delay(5000)
   yield put({
     type: 'CT_HIDE'
+  })
+  yield put({
+    type: 'START_COSPLAY'
   })
 }
 function* ClickStartSaga () {

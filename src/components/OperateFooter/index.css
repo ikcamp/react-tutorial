@@ -5,7 +5,9 @@
   margin: 0 -20px;
   padding: 0 20px;
 }
-
+.footer_hide{
+  display: none;
+}
 .footer_layout{
   height: 100%;
 }
@@ -13,12 +15,16 @@
 .footer_send-card {
   height: 100%;
   box-sizing: border-box;
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
+.footer_end-costalk{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
 .footer_tips {
   font-size: 12px;
   color: #999999;
@@ -67,4 +73,12 @@
   width: 140px;
   height: 35px;
   background-color: #198be5;
+}
+
+.btn-end-costalk {
+  width: 140px;
+  height: 35px;
+  background-color: #ffffff;
+  border: solid 1px #198be5;
+  color: #198be5;
 }

@@ -15,6 +15,7 @@ class SceneOperate extends React.Component {
   render () {
     let {playerList, roleIntro, roleList, sceneInfo, tipsList} = this.props
     const {clickRole, clickRoleHeadPic, clickStopEvent, clickPlayer, clickStart} = this.props
+    let {sceneStatus} = sceneInfo
     return (
       <div className={cx('scene-perate')} onClick={clickStopEvent}>
         <div className={cx('scene-perate_content')}>
@@ -29,7 +30,7 @@ class SceneOperate extends React.Component {
             <TipsList tipsList={tipsList} sceneInfo={sceneInfo}/>
           </div>
         </div>
-        <OperateFooter clickStart={clickStart} />
+        <OperateFooter clickStart={clickStart} sceneStatus={sceneStatus} />
       </div>
     )
   }

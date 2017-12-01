@@ -3,7 +3,8 @@ const INITIAL_STATE = {
   sceneDescription: '请输入场景描述信息',
   sceneName: '选择对话场景',
   scenePicUrl: null,
-  selectRoleId: -1
+  selectRoleId: -1,
+  sceneStatus: 0 // 0=进入场景详情 1=已开始  2=结束
 }
 
 function InitSceneInfoState (payload) {
@@ -25,6 +26,10 @@ const sceneInfo = (state = INITIAL_STATE, action) => {
       return {...state, ...{selectRoleId: action.payload}}
     case 'BACK_TO_SCENE_LIST':
       return {...state, ...INITIAL_STATE}
+    case 'START_COSPLAY':
+      return {...state, sceneStatus: 1}
+    case 'END_COSPLAY':
+      return {...state, sceneStatus: 2}
     default:
       return state
   }

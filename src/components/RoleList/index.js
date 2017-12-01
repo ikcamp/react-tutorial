@@ -10,13 +10,13 @@ let cx = classNames.bind(styles)
 class RoleList extends React.Component {
   render () {
     let {roleList, sceneInfo, clickRole, clickRoleHeadPic} = this.props
-    let { selectRoleId } = sceneInfo
+    let { selectRoleId, sceneStatus } = sceneInfo
     return (
       <ul className={cx('role-list')}>
         {
           roleList.data.map((v, i) => {
             return (
-              <RoleListItem key={i} roleInfo={v} selectRoleId={selectRoleId} clickRole={clickRole} clickRoleHeadPic={clickRoleHeadPic} />
+              <RoleListItem key={i} roleInfo={v} selectRoleId={selectRoleId} clickRole={clickRole} clickRoleHeadPic={sceneStatus === 0 ? clickRoleHeadPic : () => {}} />
             )
           })
         }
